@@ -1,0 +1,86 @@
+.firstLine {
+  display: flex;
+  padding: 35px 0;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 3px solid rgb(236, 236, 236);
+  box-shadow: 0 2px 3px rgba(224, 221, 221, 0.3);
+}
+
+.firstLineA a {
+  display: none;
+}
+
+.firstLineA {
+  display: flex;
+  margin-left: 0;
+  align-items: center;
+}
+
+.menuburger {
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.userLogo {
+  padding-left: 105px;
+}
+
+.acces {
+  margin-left: 20px;
+}
+
+.aimer {
+  display: none;
+}
+
+@media screen and (min-width:390px) {
+  .firstLine {
+    justify-content: space-between;
+    padding: 30px;
+    padding-bottom: 40px;
+  }
+
+  .firstLineA a {
+    display: flex;
+    font-weight: 600;
+  }
+
+  .firstLineA {
+    padding: 5px 0;
+    /* align-items: center; */
+  }
+
+  .menuburger svg {
+    width: 28px;
+    height: 28px;
+  }
+
+  .userLogo {
+    padding-left: 30px;
+  }
+
+  .userLogo svg {
+    width: 200px;
+    height: 35px;
+  }
+
+  .acces {
+    display: flex;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 5px;
+    padding: 10px 25px;
+  }
+
+  .acces a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 100%;
+  }
+
+  .acces svg {
+    margin-left: 10px;
+  }
+
+}
